@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookNest - Home</title>
+    <link rel="stylesheet" href="booknest.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>BookNest</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="Abooutus.html">Aboutus</a></li>
+                <li><a href="Review.html">Review</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <section class="banner">
+            <h2>Discover, Share, and Review Your Favorite Books</h2>
+            <input type="text" id="searchBar" placeholder="Search for books...">
+            <button onclick="searchBooks()">Search</button>
+        </section>
+
+        <section class="featured-books">
+            <h1>Featured Reviews</h1>
+            <div class="book-grid">
+                <div class="book-item">
+                    <div class="book1 books"><img src="book1.jpg" alt="Book 1"></div>
+                    <div class="p">
+                        <h4>Gifted Hands</h4>
+                    <p>By MICHEAL PAUL</p>
+                    <p>⭐ 4.5</p>
+                    <a href="bookDetails.html#book1" class="bookLink"> About Book</a>
+                    </div>
+                </div>
+                <div class="book-item">
+                    <div class="book2 books"><img src="book2.jpg" alt="Book 2"></div>
+                    <div class="p">
+                    <h4>BEN CARSON </h4>
+                    <p>By FRANK ERIWA</p>
+                    <p>⭐ 4.2</p>
+                    <a href="bookDetails.html#book2" class="bookLink"> About Book</a>
+                </div>
+                </div>
+                <div class="book-item">
+                    <div class="book3 books"><img src="book3.jpg" alt="Book 3"></div>
+                    <div class="p">
+                    <h4> RICH DAD POOR DAD</h4>
+                    <p>By OGBU AMBROSE</p>
+                    <p>⭐ 4.8</p>
+                    <a href="bookDetails.html" class="bookLink"> About Book</a>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 BookNest. All Rights Reserved.
+            <i class="fa-brands fa-facebook" a href="#"></i>
+            <i class="fa-brands fa-square-x-twitter" a href="#"></i>
+            <i class="fa-brands fa-square-instagram" a href="#"></i>
+    </p>
+    </footer>
+
+    <script src="booknest.js"></script>
+</body>
+</html>
